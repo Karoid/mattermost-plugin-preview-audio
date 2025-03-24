@@ -1,6 +1,6 @@
 {
     "id": "com.karoid.preview-audio",
-    "name": "Audio Preview",
+    "name": "Preview Audio",
     "description": "This plugin provides a preview feature that displays the waveform of audio files.",
     "homepage_url": "https://github.com/Karoid/mattermost-plugin-audio-preview",
     "support_url": "https://github.com/Karoid/mattermost-plugin-audio-preview/issues",

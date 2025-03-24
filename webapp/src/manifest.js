@@ -2,13 +2,13 @@
 
 const manifest = JSON.parse(`
 {
-    "id": "com.karoid.audio-preview",
-    "name": "Audio Preview",
+    "id": "com.karoid.preview-audio",
+    "name": "Preview Audio",
     "description": "This plugin provides a preview feature that displays the waveform of audio files.",
     "homepage_url": "https://github.com/Karoid/mattermost-plugin-audio-preview",
     "support_url": "https://github.com/Karoid/mattermost-plugin-audio-preview/issues",
     "icon_path": "assets/audio-wave.svg",
-    "version": "0.0.2",
+    "version": "0.1.0",
     "min_server_version": "6.2.1",
     "webapp": {
         "bundle_path": "webapp/dist/main.js"

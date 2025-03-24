@@ -70,7 +70,6 @@
         color: white;
         cursor: pointer;
         transition: all 0.2s ease;
-        border-radius: 2px;
         
         // 재생/일시정지 아이콘
         &::before {
@@ -78,6 +77,7 @@
             width: 0;
             height: 0;
             border-style: solid;
+            border-radius: 2px;
         }
 
         // 재생 상태일 때 일시정지 아이콘
