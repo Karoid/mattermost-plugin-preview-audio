@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+    <title>Audio Wave Icon</title>
+    <desc>Icon representing audio waveform</desc>
+    <g fill="none" fill-rule="evenodd">
+        <!-- Audio wave lines -->
+        <path d="M40 160v-80h20v80" stroke="#1875F0" stroke-width="20" stroke-linecap="round"/>
+        <path d="M80 120v-40h20v40" stroke="#1875F0" stroke-width="20" stroke-linecap="round"/>
+        <path d="M120 140v-80h20v80" stroke="#1875F0" stroke-width="20" stroke-linecap="round"/>
+        <path d="M160 100v-40h20v40" stroke="#1875F0" stroke-width="20" stroke-linecap="round"/>
+        <path d="M200 160v-80h20v80" stroke="#1875F0" stroke-width="20" stroke-linecap="round"/>
+    </g>
+</svg>

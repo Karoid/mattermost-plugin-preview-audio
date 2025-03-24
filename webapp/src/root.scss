@@ -10,19 +10,25 @@
         display: flex;
         flex-direction: column;
         gap: 20px;
+        border-radius: 10px;
     }
 
     &__waveform {
         width: 90vw;
         min-height: 128px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         background: rgba(79, 74, 133, 0.05);
         border-radius: 8px;
         overflow-x: auto;
         overflow-y: hidden;
+        padding: 0 10px;
 
         // 모바일 대응
         @media screen and (max-width: 768px) {
             min-height: 96px;
+            padding: 0;
         }
 
         // 데스크탑에서 스크롤바 스타일링
@@ -64,6 +70,7 @@
         color: white;
         cursor: pointer;
         transition: all 0.2s ease;
+        border-radius: 2px;
         
         // 재생/일시정지 아이콘
         &::before {
@@ -76,12 +83,9 @@
         // 재생 상태일 때 일시정지 아이콘
         &[data-playing='true'] {
             &::before {
-                width: 12px;
+                width: 16px;
                 height: 16px;
                 background: white;
-                box-shadow: 
-                    6px 0 0 white,
-                    -6px 0 0 white;
             }
         }
 
